@@ -9,21 +9,12 @@
   "author": "Wilhelm Matilainen",
   "license": "GPL-3.0",
   "devDependencies": {
-    "wilu": "0.0.46"
+    "wilu": "0.0.47"
   },
   "dependencies": {
     "debug": "^3.0.1"
   },
   "build": {
-    "+": {
-      "all": {
-        "depends": [
-          "napi-bones-node"
-        ]
-      },
-      "napi-bones-node": {
-        "node": true
-      }
-    }
+    "node": true
   }
 }
